@@ -1,0 +1,743 @@
+[
+  {
+    "id": 1,
+    "title": "Sneakers",
+    "description": "Sneakers made with premium quality fabric.",
+    "price": 57.57,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sneakers"],
+    "colors": ["yellow", "gray", "red"],
+    "sizes": ["S", "XS", "L", "XXL"],
+    "category": "Footwear",
+    "reviews": [
+      {"rating": 3, "comment": "Very comfortable!", "user": "Fatima", "date": "2025-08-01"},
+      {"rating": 5, "comment": "Loved the fabric.", "user": "Hassan", "date": "2025-08-10"},
+      {"rating": 3, "comment": "Too loose for me.", "user": "Ali", "date": "2025-09-06"},
+      {"rating": 5, "comment": "Perfect for daily wear.", "user": "Ali", "date": "2025-08-19"}
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Sports Shorts",
+    "description": "Sports Shorts made with premium quality fabric.",
+    "price": 100.6,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sportsshorts"],
+    "colors": ["blue", "white"],
+    "sizes": ["XXL", "M", "XS", "S"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 3, "comment": "Good but could be better.", "user": "Sara", "date": "2025-09-08"},
+      {"rating": 5, "comment": "Too loose for me.", "user": "Omar", "date": "2025-08-11"},
+      {"rating": 3, "comment": "Not worth the price.", "user": "Omar", "date": "2025-08-15"},
+      {"rating": 3, "comment": "Too loose for me.", "user": "Bilal", "date": "2025-08-19"}
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Running Shoes",
+    "description": "Running Shoes made with premium quality fabric.",
+    "price": 129.45,
+    "images": ["https://source.unsplash.com/400x400/?clothes,runningshoes"],
+    "colors": ["yellow", "black", "green", "white"],
+    "sizes": ["L", "XXL", "XL", "S"],
+    "category": "Footwear",
+    "reviews": [
+      {"rating": 3, "comment": "Great quality and fit!", "user": "Sara", "date": "2025-08-28"},
+      {"rating": 4, "comment": "Too loose for me.", "user": "Fatima", "date": "2025-08-14"}
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Winter Coat",
+    "description": "Winter Coat made with premium quality fabric.",
+    "price": 78.82,
+    "images": ["https://source.unsplash.com/400x400/?clothes,wintercoat"],
+    "colors": ["white", "blue", "brown", "gray"],
+    "sizes": ["L", "M", "XS"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 4, "comment": "Color slightly faded after wash.", "user": "Fatima", "date": "2025-09-09"},
+      {"rating": 4, "comment": "Too loose for me.", "user": "Noor", "date": "2025-08-10"}
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Sweatpants",
+    "description": "Sweatpants made with premium quality fabric.",
+    "price": 140.59,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sweatpants"],
+    "colors": ["white", "red"],
+    "sizes": ["M", "XL", "XXL", "XS", "L"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 5, "comment": "Perfect for daily wear.", "user": "Sara", "date": "2025-08-07"},
+      {"rating": 5, "comment": "Not worth the price.", "user": "Ayesha", "date": "2025-08-22"},
+      {"rating": 3, "comment": "Good but could be better.", "user": "Bilal", "date": "2025-08-22"},
+      {"rating": 3, "comment": "Perfect for daily wear.", "user": "Ayesha", "date": "2025-08-04"}
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Running Shoes",
+    "description": "Running Shoes made with premium quality fabric.",
+    "price": 37.88,
+    "images": ["https://source.unsplash.com/400x400/?clothes,runningshoes"],
+    "colors": ["red", "black"],
+    "sizes": ["XL", "L", "M", "XS"],
+    "category": "Footwear",
+    "reviews": [
+      {"rating": 3, "comment": "Color slightly faded after wash.", "user": "Omar", "date": "2025-09-09"}
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Sweatpants",
+    "description": "Sweatpants made with premium quality fabric.",
+    "price": 134.62,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sweatpants"],
+    "colors": ["blue", "black", "red", "green"],
+    "sizes": ["L", "XS", "M", "XXL"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 3, "comment": "Too loose for me.", "user": "Omar", "date": "2025-09-05"},
+      {"rating": 3, "comment": "Good but could be better.", "user": "Noor", "date": "2025-08-18"},
+      {"rating": 3, "comment": "Good but could be better.", "user": "Fatima", "date": "2025-09-09"}
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Denim Jacket",
+    "description": "Denim Jacket made with premium quality fabric.",
+    "price": 27.4,
+    "images": ["https://source.unsplash.com/400x400/?clothes,denimjacket"],
+    "colors": ["green", "brown", "white", "gray"],
+    "sizes": ["XL", "M", "L", "XS", "S"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 5, "comment": "Color slightly faded after wash.", "user": "Mariam", "date": "2025-08-11"},
+      {"rating": 3, "comment": "Color slightly faded after wash.", "user": "Noor", "date": "2025-09-03"}
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Winter Coat",
+    "description": "Winter Coat made with premium quality fabric.",
+    "price": 69.41,
+    "images": ["https://source.unsplash.com/400x400/?clothes,wintercoat"],
+    "colors": ["red", "white", "blue"],
+    "sizes": ["XL", "S", "XXL", "XS"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 5, "comment": "Color slightly faded after wash.", "user": "Ayesha", "date": "2025-08-12"},
+      {"rating": 5, "comment": "Good but could be better.", "user": "Ayesha", "date": "2025-08-30"},
+      {"rating": 5, "comment": "Stylish and comfy.", "user": "Noor", "date": "2025-08-14"},
+      {"rating": 3, "comment": "Stylish and comfy.", "user": "Omar", "date": "2025-08-02"}
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Sweatpants",
+    "description": "Sweatpants made with premium quality fabric.",
+    "price": 86.74,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sweatpants"],
+    "colors": ["green", "black", "yellow", "brown"],
+    "sizes": ["S", "XS", "L", "XL"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 4, "comment": "Great quality and fit!", "user": "Fatima", "date": "2025-09-05"}
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Formal Shirt",
+    "description": "Formal Shirt made with premium quality fabric.",
+    "price": 110.86,
+    "images": ["https://source.unsplash.com/400x400/?clothes,formalshirt"],
+    "colors": ["blue", "black"],
+    "sizes": ["XS", "S", "M", "L"],
+    "category": "Formalwear",
+    "reviews": [
+      {"rating": 4, "comment": "Great quality and fit!", "user": "Mariam", "date": "2025-08-07"},
+      {"rating": 3, "comment": "I recommend this!", "user": "Hassan", "date": "2025-08-13"},
+      {"rating": 5, "comment": "Stylish and comfy.", "user": "Noor", "date": "2025-09-07"},
+      {"rating": 4, "comment": "Not worth the price.", "user": "Ayesha", "date": "2025-08-05"}
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Chinos",
+    "description": "Chinos made with premium quality fabric.",
+    "price": 88.08,
+    "images": ["https://source.unsplash.com/400x400/?clothes,chinos"],
+    "colors": ["black", "yellow", "red", "brown"],
+    "sizes": ["M", "XXL", "S", "L"],
+    "category": "Bottoms",
+    "reviews": [
+      {"rating": 3, "comment": "Great quality and fit!", "user": "Bilal", "date": "2025-08-15"}
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Sweatpants",
+    "description": "Sweatpants made with premium quality fabric.",
+    "price": 84.32,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sweatpants"],
+    "colors": ["yellow", "gray", "green", "red"],
+    "sizes": ["M", "XXL", "S", "XS"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 3, "comment": "Great quality and fit!", "user": "Hassan", "date": "2025-09-06"},
+      {"rating": 5, "comment": "Very comfortable!", "user": "Bilal", "date": "2025-08-14"},
+      {"rating": 4, "comment": "I recommend this!", "user": "Ali",  "date": "2025-08-22"}
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Sweatpants",
+    "description": "Sweatpants made with premium quality fabric.",
+    "price": 82.62,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sweatpants"],
+    "colors": ["gray", "yellow", "green"],
+    "sizes": ["XXL", "XL", "XS", "S", "M"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 5, "comment": "I recommend this!",  "user": "Ayesha", "date": "2025-08-31"},
+      {"rating": 5, "comment": "Good but could be better.", "user": "Hassan", "date": "2025-08-31"}
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Polo Shirt",
+    "description": "Polo Shirt made with premium quality fabric.",
+    "price": 100.45,
+    "images": ["https://source.unsplash.com/400x400/?极速下载clothes,poloshirt"],
+    "colors": ["brown", "black", "green"],
+    "sizes": ["L", "XS", "M", "XL", "S"],
+    "category": "Tops",
+    "reviews": [
+      {"rating": 5, "comment": "Loved the fabric.", "user": "Ali", "date": "2025-09-02"},
+      {"rating": 5, "comment": "Perfect for daily wear.", "user": "Ayesha", "date": "2025-08-09"}
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Maxi Dress",
+    "description": "Maxi Dress made with premium quality fabric.",
+    "price": 133.6,
+    "images": ["https://source.unsplash.com/400x400/?clothes,maxidress"],
+    "colors": ["brown", "red", "black", "white"],
+    "sizes": ["XS", "M", "L"],
+    "category": "Dresses",
+    "reviews": [
+      {"rating": 5, "comment": "Color slightly faded after wash.", "user": "Mariam", "date": "2025-08-06"},
+      {"rating": 4, "comment": "Very comfortable!", "user": "Omar", "date": "2025-极速下载08-19"},
+      {"rating": 5, "comment": "极速下载I recommend this!", "user": "Sara", "date": "2025-08-04"}
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Casual Jacket",
+    "description": "Casual Jacket made with premium quality fabric.",
+    "price": 124.13,
+    "images": ["https://source.unsplash.com/400x400/?clothes,casualjacket"],
+    "colors": ["gray", "yellow", "black", "brown"],
+    "极速下载sizes": ["S", "XL", "L", "M", "XS"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 3, "comment": "Color slightly faded after wash.", "user": "Noor", "date": "2025-08-27"},
+      {"rating": 3, "comment": "Color slightly faded after wash.", "user": "Hassan", "date": "2025-08-19"},
+      {"rating": 4, "comment": "Very comfortable!", "user": "Ahmed", "date": "2025-08-12"},
+      {"rating": 3, "comment": "Too loose for me.", "user": "Ali", "date": "2025-08-25"}
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Leather Jacket",
+    "description": "Leather Jacket made with premium quality fabric.",
+    "price": 102.06,
+    "images": ["https://source.unsplash.com/400x400/?clothes,leatherjacket"],
+    "colors": ["black", "white", "blue"],
+    "sizes": ["XS", "L", "S", "M"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 5, "comment": "I recommend this!", "user": "Omar", "date": "2025-08-30"},
+      {"rating": 4, "comment": "Color slightly faded after wash.", "user": "Ahmed", "date": "2025-08-29"},
+      {"rating": 4, "comment": "Very comfortable!", "user": "Sara", "date": "2025-09-04"},
+      {"rating": 4, "comment": "Color slightly faded after wash.", "user": "Omar", "date": "2025-08-12"}
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Sports Shorts",
+    "description": "Sports Shorts made with premium quality fabric.",
+    "price": 117.04,
+    "images": ["https://source.unsplash.com/极速下载400x400/?clothes,sportsshorts"],
+    "colors": ["black", "white"],
+    "sizes": ["XXL", "M", "L", "XS"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 3, "comment": "Good but could be better.", "user": "Omar", "date": "2025-08-31"},
+      {"rating": 4, "comment": "Great quality and fit!", "user": "Omar", "date": "2025-08-27"},
+      {"rating": 5, "comment": "I recommend this!", "user": "Fatima", "date": "2025-08-23"}
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Denim Jacket",
+    "description": "Denim Jacket made with premium quality fabric.",
+    "price": 92.59,
+    "images": ["https://source.unsplash.com/400x400/?clothes,denimjacket"],
+    "colors": ["brown", "gray"],
+    "sizes": ["XL", "S", "XXL", "XS"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 4, "comment": "Very comfortable!", "user": "Ayesha", "date": "2025-08-21"},
+      {"rating": 5, "comment": "Perfect for daily wear.", "user": "Mariam", "date": "2025-08-23"},
+      {"rating": 3, "comment": "I recommend this!", "user": "Hassan", "date": "2025-08-07"},
+      {"rating": 4, "comment": "Very comfortable!", "极速下载user": "Hassan", "date": "2025-08-02"}
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Sweatpants",
+    "description": "Sweatpants made with premium quality fabric.",
+    "price": 95.8,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sweatpants"],
+    "colors": ["yellow", "brown", "green", "white"],
+    "sizes": ["XXL", "极速下载S", "M", "XL", "L"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 5, "comment": "Stylish and comfy.", "user": "Omar", "date": "2025-08-18"},
+      {"rating": 4, "comment": "Color slightly faded after wash.", "user": "Noor", "date": "2025-08-25"}
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Winter Coat",
+    "description": "Winter Coat made with premium quality fabric.",
+    "price": 88.49,
+    "images": ["https://source.unsplash.com/400x400/?clothes,wintercoat"],
+    "colors": ["black", "blue", "yellow", "gray"],
+    "sizes": ["S", "M", "XXL"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 4, "comment": "Good but could be better.", "user": "Mariam", "date": "2025-08-30"},
+      {"rating": 3, "comment": "Very comfortable!", "user": "Ayesha", "date": "2025-08-15"},
+      {"rating": 3, "comment": "Stylish and comfy.", "user": "Fatima", "date": "2025-08-06"}
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Sports Shorts",
+    "description": "Sports Shorts made with premium quality fabric.",
+    "price": 67.83,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sportsshorts"],
+    "colors": ["极速下载red", "gray", "black"],
+    "sizes": ["XXL", "L", "极速下载M", "S", "XS"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 5, "comment": "Very comfortable!", "user": "Sara", "date": "2025-08-25"},
+      {"极速下载rating": 5, "comment": "Stylish and comfy.", "user": "Fatima", "date": "2025-08-09"},
+      {"rating": 3, "comment": "I recommend this!", "user": "Fatima", "date": "2025-09-09"}
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Summer Dress",
+    "description": "Summer Dress made with premium quality fabric.",
+    "price": 23.52,
+    "images": ["https://source.unsplash.com/400x400/?clothes,summerdress"],
+    "colors": ["yellow", "red"],
+    "s极速下载izes": ["XS", "M", "XXL", "L", "XL"],
+    "category": "Dresses",
+    "reviews": [
+      {"rating": 3, "comment": "Too loose for me.", "user": "Fatima", "date": "2025-08-05"}
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Winter Coat",
+    "description": "Winter Coat made with premium quality fabric.",
+    "price": 25.49,
+    "images": ["https://source.unsplash.com/400极速下载x400/?clothes,wintercoat"],
+    "colors": ["yellow", "极速下载white", "brown", "blue"],
+    "sizes": ["S", "XXL", "XS"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 4, "comment": "Perfect for daily wear.", "user": "Noor", "date": "2025-08-24"}
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Denim Jacket",
+    "description": "Denim Jacket made with premium quality fabric.",
+    "price": 71.28,
+    "images": ["https://source.unsplash.com/400x400/?clothes,denimjacket"],
+    "colors": ["white", "brown"],
+    "sizes": ["XS", "M", "XL", "L", "XXL"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 5, "comment": "Great quality and fit!", "user": "Omar", "date": "2025-09-08"},
+      {"rating": 4, "comment": "Stylish and comfy.", "user": "Ahmed", "date": "2025-08-24"}
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Maxi Dress",
+    "description": "Maxi Dress made with premium quality fabric.",
+    "price": 130.79,
+    "images": ["https://source.unsplash.com/400x400/?clothes,maxidress"],
+    "colors": ["blue", "brown", "black"],
+    "sizes": ["M", "S", "XS"],
+    "category": "Dresses",
+    "reviews": [
+      {"rating": 4, "comment": "Too loose for me.", "user": "Ahmed", "date": "2025-08-08"},
+      {"rating": 5, "comment": "Not worth the price.", "user": "Ahmed", "date": "2025-08-极速下载27"},
+      {"rating": 5, "comment": "Loved the fabric.", "user": "Bilal", "date": "2025-08-31"}
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Sweatpants",
+    "description": "Sweatpants made with premium quality fabric.",
+    "price": 17.44,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sweatpants"],
+    "colors": ["green", "gray", "yellow"],
+    "sizes": ["M", "XXL", "XL"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 5, "comment": "Color slightly faded after wash.", "user": "Sara", "date": "2025-08-24"},
+      {"rating": 3, "comment": "Great quality and fit!", "user": "Noor", "date": "2025-09-06"},
+      {"rating": 4, "comment": "Color slightly faded after wash.", "user": "Noor", "date": "2025-08-15"},
+      {"rating": 5, "comment": "I recommend this!", "user": "Ahmed", "date": "2025-08-05"}
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Crop Top",
+    "description": "Crop Top made with premium quality fabric.",
+    "price": 112.76,
+    "images": ["https://source.unsplash.com/400x400/?clothes,croptop"],
+    "colors": ["red", "blue"],
+    "sizes": ["S", "M", "XS", "L", "XL"],
+    "category": "Tops",
+    "reviews": [
+      {"rating": 4, "comment": "Loved the fabric.", "user": "B极速下载ilal", "date": "2025-08-04"}
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Denim Jacket",
+    "description": "Denim Jacket made with premium quality fabric.",
+    "price": 120.08,
+    "images": ["https://source.unsplash.com/400x400/?clothes,denimjacket"],
+    "colors": ["white", "green"],
+    "sizes": ["M", "L", "XXL"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 5, "comment": "Not worth the price.", "user": "Bilal", "date": "2025-08-06"},
+      {"rating": 4, "comment": "Good but could be better.", "user": "Bilal", "date": "2025-08-19"},
+      {"rating": 4, "comment": "Perfect for daily wear.", "user": "Hassan", "date": "2025-08-13"},
+      {"rating": 4, "comment": "Color slightly faded after wash.", "user": "Ali", "date": "2025-08-26"}
+    ]
+  },
+  {
+    "id": 31,
+    "title": "Summer Dress",
+    "description": "Summer Dress made with premium quality fabric.",
+    "price": 137.45,
+    "images": ["https://source.unsplash.com/400x400/?clothes,summerdress"],
+    "colors": ["green", "gray", "red", "blue"],
+    "sizes": ["XL", "XS", "S", "L", "XXL"],
+    "category": "Dresses",
+    "reviews": [
+      {"rating": 3, "comment": "I recommend this!", "user": "Ali", "date": "2025-08-27"},
+      {"rating": 3, "comment": "Stylish and comfy.", "user": "Ali", "date": "2025-08-02"},
+      {"rating": 3, "comment": "Good but could be better.", "user": "Bilal", "date": "2025-09-03"}
+    ]
+  },
+  {
+    "id": 32,
+    "title": "Sneakers",
+    "description": "Sneakers made with premium quality fabric.",
+    "极速下载price": 138.44,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sneakers"],
+    "colors": ["green", "gray"],
+    "sizes": ["XXL", "XS", "S"],
+    "category": "Footwear",
+    "reviews": [
+      {"rating": 4, "comment": "Color slightly faded after wash.", "user": "Hassan", "date": "2025-08-24"},
+      {"rating": 5, "comment": "I recommend this!", "user": "Omar", "date": "2025-08-20"},
+      {"rating": 4, "comment": "I recommend this!", "user": "Bilal", "date": "2025-08-16"}
+    ]
+  },
+  {
+    "id": 33,
+    "title": "Hoodie",
+    "description": "Hoodie made with premium quality fabric.",
+    "price": 139.0,
+    "images": ["https://source.unsplash.com/400x400/?clothes,hoodie"],
+    "colors": ["gray", "yellow"],
+    "sizes": ["XL", "XXL", "极速下载M"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 5, "comment": "Good but could be better.", "user": "Hassan", "date": "2025-08-01"},
+      {"rating": 3, "comment": "Not worth the price.", "user": "Mariam", "date": "2025-09-08"}
+    ]
+  },
+  {
+    "id": 34,
+    "title": "Formal Shirt",
+    "description": "Formal Shirt made with premium quality fabric.",
+    "price": 19.16,
+    "images": ["极速下载https://source.unsplash.com/400x400/?clothes,formalshirt"],
+    "colors": ["blue", "brown", "red", "green"],
+    "sizes": ["XL", "S", "XXL"],
+    "category": "Formalwear",
+    "reviews": [
+      {"rating": 5, "comment": "Color slightly faded after wash.", "user": "Sara", "date": "2025-08-09"}
+    ]
+  },
+  {
+    "id": 35,
+    "title": "Hoodie",
+    "description": "Hoodie made with premium quality fabric.",
+    "price": 76.11,
+    "images": ["https://source.unsplash.com/400x400/?clothes,hoodie"],
+    "colors": ["red", "gray", "yellow"],
+    "sizes": ["XXL", "S", "XS"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 3, "comment": "Not worth the price.", "user": "Fatima", "date": "2025-08-31"},
+      {"rating": 5, "comment": "Very comfortable!", "user": "Ali", "date": "2025-08-08"},
+      {"rating": 4, "comment": "I recommend this!", "user": "Fatima", "date": "2025-08-27"},
+      {"rating": 4, "comment": "Good but could be better.", "user": "Ayesha", "date": "2025-08-09"}
+    ]
+  },
+  {
+    "id": 36,
+    "title": "Polo Sh极速下载irt",
+    "description": "Polo Shirt made with premium quality fabric.",
+    "极速下载price": 38.31,
+    "images": ["https://source.unsplash.com/400x400/?clothes,poloshirt"],
+    "colors": ["blue", "green", "red", "brown"],
+    "sizes": ["XL", "S", "XS", "M"],
+    "category": "Tops",
+    "reviews": [
+      {"rating": 5, "comment": "Stylish and comfy.", "user": "N极速下载oor", "date": "2025-极速下载08-03"},
+      {"rating": 3, "comment": "Good but could be better.", "user": "Noor", "date": "2025-08-23"},
+      {"rating": 3, "comment": "Good but could be better.", "user": "Ali", "date": "2025-08-28"},
+      {"rating": 5, "comment": "Good but could be better.", "user": "Fatima", "date": "2025-08-11"}
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Winter Coat",
+    "description": "Winter Coat made with premium quality fabric.",
+    "price": 137.99,
+    "images": ["https://source.unsplash.com/400x400/?clothes,wintercoat"],
+    "colors": ["gray", "black", "brown"],
+    "sizes": ["XS", "L", "S"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 4, "comment": "Great quality and fit!", "user": "Ayesha", "date": "2025-08-20"},
+      {"rating": 3, "comment": "Great quality and fit!", "user": "Hassan", "date": "2025-08-01"},
+      {"rating": 4, "comment": "Perfect for daily wear.", "user": "Omar", "date": "2025-08-25"}
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Summer Dress",
+    "description": "Summer Dress made with premium quality fabric.",
+    "price": 78.71,
+    "images": ["https://source.unsplash.com/400x400/?clothes,summerdress"],
+    "colors": ["red", "极速下载blue", "white", "yellow"],
+    "sizes": ["极速下载M", "S", "极速下载XXL", "L"],
+    "category": "Dresses",
+    "reviews": [
+      {"rating": 4, "comment": "Stylish and comfy.", "user": "Ahmed", "date": "2025-08-10"},
+      {"rating": 5, "comment": "Stylish and comfy.", "user": "极速下载Ali", "date": "2025-09-07"},
+      {"rating": 5, "comment": "Loved the fabric.", "user": "Hassan", "date": "2025-08-06"},
+      {"rating": 4, "comment": "Very comfortable!", "user": "Noor", "date": "2025-08-22"}
+    ]
+  },
+  {
+    "id": 39,
+    "title": "Summer Dress",
+    "description": "Summer Dress made with premium quality fabric.",
+    "price": 129.3,
+    "images": ["https://source.unsplash.com/400x400/?clothes,summerdress"],
+    "colors": ["blue", "yellow", "black", "green"],
+    "sizes": ["L", "XS", "S", "XXL", "M"],
+    "category": "Dresses",
+    "reviews": [
+      {"rating": 5, "comment": "Good but could be better.", "user": "Ali", "date": "2025-09-10"},
+      {"rating": 4, "comment": "Too loose for me.", "user": "Noor", "date": "2025-08-23"}
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Chinos",
+    "description": "Chinos made with premium quality fabric.",
+    "price": 149.21,
+    "images": ["https://source.unsplash.com/400x400/?clothes,chinos"],
+    "colors": ["green", "yellow", "极速下载gray"],
+    "sizes": ["M", "XS", "L", "XXL"],
+    "category": "Bottoms",
+    "reviews": [
+      {"rating": 5, "comment": "Not worth the price.", "user": "Fatima", "date": "2025-08-10"},
+      {"rating": 5, "comment": "Color slightly faded after wash.", "user": "Ahmed", "date": "2025-08-14"},
+      {"rating": 3, "comment": "Very comfortable!", "user": "Ayesha", "date": "2025-08-02"},
+      {"rating": 4, "comment": "Stylish and comfy.", "user": "Omar", "date": "2025-极速下载08-22"}
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Crop Top",
+    "description": "Crop Top made with premium quality fabric.",
+    "price": 20.99,
+    "images": ["https://source.unsplash.com/400x400/?clothes,croptop"],
+    "colors": ["gray", "yellow", "black"],
+    "sizes": ["M", "XS", "L", "XXL"],
+    "category": "Tops",
+    "reviews": [
+      {"rating": 5, "comment": "I recommend this!", "user": "Ayesha", "date": "2025-08-13"},
+      {"rating": 4, "comment": "Good but could be better.", "user": "Ayesha", "date": "2025-08-24"},
+      {"rating": 5, "comment": "Not worth the price.", "user极速下载": "Bilal", "date": "2025-08-04"},
+      {"rating": 4, "comment": "Good but could be better.", "user": "Mariam", "date": "2025-09-06"}
+    ]
+  },
+  {
+    "id": 42,
+    "title": "Classic T-Shirt",
+    "description": "Classic T-Shirt made with premium quality fabric.",
+    "price": 110.28,
+    "images": ["https://source.unsplash.com/400x400/?clothes,classict-shirt"],
+    "colors": ["gray", "black"],
+    "sizes": ["L", "M", "S", "XXL", "XS"],
+    "category": "Tops",
+    "reviews": [
+      {"rating": 5, "comment": "Color slightly faded after wash.", "user": "Mariam", "date": "2025-09-09"},
+      {"rating": 5, "comment": "Stylish and comfy.", "user": "Fatima", "date": "2025-08-04"},
+      {"rating": 3, "comment": "I recommend this!", "user": "Bil极速下载al", "date": "2025-08-07"},
+      {"rating": 3, "comment": "Very comfortable!", "user": "Fatima", "date": "2025-09-09"}
+    ]
+  },
+  {
+    "id": 43,
+    "title": "Chinos",
+    "description": "Chinos made with premium quality fabric.",
+    "price": 147.68,
+    "images": ["https://source.unsplash.com/400x400/?clothes,chinos"],
+    "colors": ["black", "white"],
+    "sizes": ["XS", "XL", "M", "极速下载L"],
+    "category": "Bottoms",
+    "reviews": [
+      {"rating": 4, "comment": "Loved the fabric.", "user": "Sara", "date": "2025-09-05"},
+      {"rating": 5, "comment": "Good but could be better.", "user": "Bilal", "极速下载date": "2025-09-09"},
+      {"rating": 5, "comment": "Very comfortable!", "user": "Bilal", "date": "2025-08-23"}
+    ]
+  },
+  {
+    "id": 44,
+    "title": "Cargo Pants",
+    "description": "Cargo Pants made with premium quality fabric.",
+    "price": 138.81,
+    "images": ["https://source.unsplash.com/400x400/?clothes,cargopants"],
+    "colors": ["red", "gray", "yellow", "green"],
+    "sizes": ["L", "XS", "XXL", "S", "XL"],
+    "category": "Bottoms",
+    "reviews": [
+      {"rating": 4, "comment": "Perfect for daily wear.", "user": "Noor", "date": "2025-08-26"},
+      {"rating": 3, "comment": "Very comfortable!", "user": "Noor", "date": "2025-08-25"}
+    ]
+  },
+  {
+    "id": 45,
+    "title": "Sports Shorts",
+    "description": "Sports Shorts made with premium quality fabric.",
+    "price": 26.24,
+    "images": ["https://source.unsplash.com/400x400/?clothes,sportsshorts"],
+    "colors": ["gray", "white", "blue"],
+    "sizes": ["XS", "XL", "M", "S"],
+    "category": "Activewear",
+    "reviews": [
+      {"rating": 4, "comment": "Loved the fabric.", "user": "Sara", "date": "2025-09-04"},
+      {"rating": 5, "comment": "Perfect for daily wear.", "user": "Fatima", "date": "2025-09-03"}
+    ]
+  },
+  {
+    "id": 46,
+    "title": "Formal Shirt",
+    "description": "Formal Shirt made with premium quality fabric.",
+    "price": 67.06,
+    "images": ["https://source.unsplash.com/400x400/?clothes,formalshirt"],
+    "colors": ["gray", "blue"],
+    "sizes": ["M", "XL", "极速下载S", "L"],
+    "category": "Formalwear",
+    "re极速下载views": [
+      {"rating": 3, "comment": "Good but could be better.", "user": "Ayesha", "date": "2025-08-27"},
+      {"rating": 3, "comment": "Very comfortable!", "user": "Ahmed", "date": "2025-08-14"},
+      {"rating": 4, "comment": "I recommend this!", "user": "Hassan", "date": "2025-08-28"}
+    ]
+  },
+  {
+    "id": 47,
+    "title": "Polo Shirt",
+    "description": "Polo Shirt made with premium quality fabric.",
+    "price": 144.23,
+    "images": ["https://source.unsplash.com/400x400/?clothes,poloshirt"],
+    "colors": ["gray", "yellow"],
+    "sizes": ["极速下载S", "L", "XL", "XS"],
+    "category": "Tops",
+    "reviews": [
+      {"rating": 4, "comment": "Not worth the price.", "user": "Noor", "date": "2025-09-04"},
+      {"rating": 5, "comment": "Too loose for me.", "user": "Ali", "date": "2025-08-22"},
+      {"rating": 5, "comment": "Color slightly faded after wash.", "user": "Noor", "date": "2025-08-05"},
+      {"rating": 4, "comment": "Great quality and fit!", "user": "Ahmed", "date": "2025-08-18"}
+    ]
+  },
+  {
+    "id": 48,
+    "title": "Chinos",
+    "description": "极速下载Chinos made with premium quality fabric.",
+    "price": 108.19,
+    "images": ["https://source.unsplash.com/400x400/?clothes,chinos"],
+    "colors": ["blue", "yellow", "red"],
+    "sizes": ["XXL", "XL", "XS", "S"],
+    "category": "Bottoms",
+    "reviews": [
+      {"rating": 3, "comment": "Color slightly faded after wash.", "user": "Ayesha", "date": "2025-08-23"},
+      {"rating": 4, "comment": "Not worth the price.", "user": "Ahmed", "date": "2025-08-12"},
+      {"rating": 5, "comment": "Good but could be better.", "user": "Fatima", "date": "2025-09-09"},
+      {"rating": 4, "comment": "Color slightly faded after wash.", "user": "Bilal", "date": "2025-08-11"}
+    ]
+  },
+  {
+    "id": 49,
+    "title": "Denim Jacket",
+    "description": "Denim Jacket made with premium quality fabric.",
+    "price": 72.04,
+    "images": ["https://source.unsplash.com/400x400/?clothes,denimjacket"],
+    "colors": ["brown", "green", "blue", "gray"],
+    "sizes": ["XXL", "XS", "S"],
+    "category": "Outerwear",
+    "reviews": [
+      {"rating": 5, "comment": "Too loose for me.", "user": "Mariam", "date": "2025-09-06"},
+      {"rating": 3, "comment": "Loved the fabric.", "user": "Bilal", "date": "2025-09-02"},
+      {"rating": 4, "comment": "Color slightly faded after wash.", "user": "Ayesha", "date": "2025-08-16"}
+    ]
+  },
+  {
+    "id": 50,
+    "title": "Chinos",
+    "description": "Chinos made with premium quality fabric.",
+    "price": 98.29,
+    "images": ["https://source.unsplash.com/400x400/?clothes,chinos"],
+    "colors": ["brown", "black", "white", "green"],
+    "sizes": ["M", "XXL", "XL"],
+    "category": "Bottoms",
+    "reviews": [
+      {"rating": 4, "comment": "I recommend this!", "user": "Hassan", "date": "2025-08-26"}
+    ]
+  }
+]
