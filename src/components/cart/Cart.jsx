@@ -34,7 +34,7 @@ function Cart() {
                                             <li className="flex gap-3 items-center border-b p-3" key={index}>
                                                 <div className="cart-item-pic">
                                                     <img className="w-20 h-20"
-                                                        src="/public/heroRightSide-removebg-preview.png" alt="" />
+                                                        src="/heroRightSide-removebg-preview.png" alt="" />
                                                 </div>
                                                 <div className="cart-item-details">
                                                     <p>{item.title}</p>
