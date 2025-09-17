@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <>
-            <div className="w-full py-5 bg-gray-300 relative flex flex-col gap-5 items-center justify-center mt-24">
+            <div className="w-full py-5 bg-gray-300 relative flex flex-col gap-5 items-center justify-center mt-24 capitalize">
                 <div className=" bg-black text-white py-5  mt-[-80px] rounded-lg p-3">
                     <ul className="w-full flex flex-col lg:flex-row gap-5 items-center justify-around">
                         <li>

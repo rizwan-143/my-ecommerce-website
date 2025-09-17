@@ -34,7 +34,7 @@ function ProductsList() {
 
 
 
-        <h3 className="font-extrabold text-[30px] text-center">our products</h3>
+        <h3 className="font-extrabold text-[30px] text-center capitalize">our products</h3>
        
 
         <div className="grid sm:grid-col-1 md:grid-cols-4 px-3 gap-4">

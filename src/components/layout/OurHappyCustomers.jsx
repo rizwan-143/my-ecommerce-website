@@ -13,10 +13,10 @@ function OurHappyCustomer() {
     return (
         <>
 
-            <div>
+            <div className="capitalize">
         <h1 className="uppercase font-bold text-[30px]" >our happy customer</h1>
                 <h2>reviews :  (Page {currentPage})</h2>
-                <ul className="grid sm:grid-cols-1 md:grid-cols-4 gap-3   ">
+                <ul className="grid sm:grid-cols-1 md:grid-cols-4 gap-3  ">
                     {PaginatedReviews.map((review, index) => (
                         <li key={index} className=" hover:bg-gray-200 transition-all duration-500 ease-in-out cursor-pointer hover:scale-105
                         border border-gray-300 p-4 rounded-lg bg-gray-100">
