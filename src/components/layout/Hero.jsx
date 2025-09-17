@@ -28,7 +28,7 @@ function Hero(){
         </div>
 
         <div className="w-full lg:w-1/2 h-full flex items-center justify-center">
-        <img src="/public/heroRightSide-removebg-preview.png" className="w-full h-full bg-transparent object-cover" alt="" />
+        <img src="/heroRightSide-removebg-preview.png" className="w-full h-full bg-transparent object-cover" alt="" />
         </div>
         </div>
         </>
