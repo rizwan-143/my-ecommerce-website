@@ -61,13 +61,13 @@ function ProductsDetails() {
                 <div className="product-details-left-side w-full lg:w-1/2 flex items-center justify-center gap-3">
                     <div className="related-images">
                         <ul className="flex flex-col gap-3 rounded-lg">
-                            <li><img src="../../../public/heroRightSide.png" className="w-16 h-16" alt="" /></li>
-                            <li><img src="../../../public/heroRightSide.png" className="w-16 h-16" alt="" /></li>
-                            <li><img src="../../../public/heroRightSide.png" className="w-16 h-16" alt="" /></li>
+                            <li><img src="/public/heroRightSide.png" className="w-16 h-16" alt="" /></li>
+                            <li><img src="/public/heroRightSide.png" className="w-16 h-16" alt="" /></li>
+                            <li><img src="/public/heroRightSide.png" className="w-16 h-16" alt="" /></li>
                         </ul>
                     </div>
                     <div className="bg-gray-100 rounded-lg">
-                        <img src="../../../public/heroRightSide-removebg-preview.png" className="object-cover" alt="" />
+                        <img src="/public/heroRightSide-removebg-preview.png" className="object-cover" alt="" />
                     </div>
                 </div>
 
@@ -180,7 +180,7 @@ function ProductsDetails() {
                             <div className="card border border-gray-200 p-3 rounded-lg bg-gray-100" key={index}>
                                 <div className="card-header group overflow-hidden">
                                     <img className="group-hover:scale-110 transition-all duration-500"
-                                        src="../../../public/heroRightSide-removebg-preview.png" alt="" />
+                                        src="/public/heroRightSide-removebg-preview.png" alt="" />
                                 </div>
 
                                 <div className="card-body">

@@ -13,7 +13,7 @@ function ProductsCard({ product }) {
 
             <div className="card shadow rounded-lg p-3 cursor-pointer">
                 <div className="card-header rounded-lg overflow-hidden group">
-                    <img src={"../../../public/heroRightSide.png"} alt="" className="w-full rounded-lg group-hover:scale-110 transition-all duration-500" />
+                    <img src={"/public/heroRightSide-removebg-preview.png"} alt="" className="w-full rounded-lg group-hover:scale-110 transition-all duration-500" />
                 </div>
                 <div className="card-body flex flex-col gap-2 mt-2">
 
